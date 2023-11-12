@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME PAGE</title>
+</head>
+<body>
+    <h2>The total number of users are: <%=count %></h2>
+    <h1>FILL THE FORM TO JOIN US</h1>
+    <form method="post" action="/user">
+        <textarea name="username" cols="30" rows="1" placeholder="enter your username"></textarea>
+        <input type="email" name="email" placeholder="email">
+        <input type="password" name="password" placeholder="password">
+        <button> SUBMIT</button>
+    </form>
+</body>
+</html>

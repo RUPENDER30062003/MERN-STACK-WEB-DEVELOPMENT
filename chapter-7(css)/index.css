@@ -1,0 +1,28 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255,0,0,0.5);
+    margin: 0 auto;/* auto means equal from left and right */ 
+    margin-top: 10px;
+    transition-duration:2s;
+    transition-delay: 2s; 
+    transition-timing-function: ease-in;
+}
+
+p{
+    height: 200px;
+    width: 200px;
+    background-color: #ffff00ff;
+}
+
+#opacity{
+    background-color: red;
+    opacity: 0.5;
+}
+
+div:hover{
+    background-color: black;
+    color: #ffa511;
+    border-radius: 50%;
+    margin-top: 40px;
+}

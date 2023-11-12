@@ -1,0 +1,12 @@
+span{
+    /* background-color:pink; */
+    border: 2px solid black;
+    height: 100px;
+    width: 20px;
+    padding: 50px;
+    margin: 20px;
+    /* height weidth donot set  and
+    padding and margin set for only left and right notfor top and bottom  */
+}  
+
+

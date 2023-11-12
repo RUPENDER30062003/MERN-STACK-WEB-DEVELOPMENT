@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+}
+
+div{
+    height:100px;
+    width:500px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.box{
+    height:100px ;
+    width: 100px;
+    background-color: pink;
+    border: 1px solid black;
+}
+
+#mouseid{
+    height: 100px;
+    width: 500px;
+    background-color: yellow;
+}
+
+#keypress{
+    height: 100px;
+    width: 500px;
+    background-color: brown;
+}
+
+body {
+    height: 2000px; /* Add enough height to create scrollable content */
+  }

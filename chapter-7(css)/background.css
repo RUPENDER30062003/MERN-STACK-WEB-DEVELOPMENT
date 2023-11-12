@@ -1,0 +1,11 @@
+div{
+    color: white;
+    width: 400px;
+    height: 200px;
+    background-color: #7aa874;
+    margin: 10px auto;
+    background-image: url("photo.jpg");
+    background-size: cover;
+    text-align: center;
+    padding-top: 200px;
+}

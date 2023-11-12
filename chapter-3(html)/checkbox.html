@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="/server">
+
+        <input type="checkbox" id="age" name="age">
+        <label for="age">I am 18+</label>
+
+        <hr>
+        <input type="checkbox" id="age1" name="age1" checked>
+        <label for="age1">I am 18+</label>
+
+        <fieldset>
+            <legend>Choose your interests</legend>
+            <div>
+              <input type="checkbox" id="coding" name="interest" value="coding" />
+              <label for="coding">Coding</label>
+
+              <input type="checkbox" id="music" name="interest" value="music" />
+              <label for="music">Music</label>
+            </div> 
+        </fieldset>
+
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple">
+            <label for="apple">apple</label>
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">mango</label>
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">banana</label>
+        </div>
+
+        <fieldset>
+            <legend>choose your subjects:</legend>
+            <input type="checkbox" name="subjects" id="eng" value="eng">
+            <label for="eng">English</label>
+            <input type="checkbox" name="subjects" id="hin" value="hin">
+            <label for="hin">hindi</label>
+            <input type="checkbox" name="subjects" id="math" value="math">
+            <label for="math">math</label>
+            <input type="checkbox" name="subjects" id="science" value="science">
+            <label for="science">science</label>
+            <input type="checkbox" name="subjects" id="ss" value="socialscience">
+            <label for="ss">social science</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>choose your favourate subjects:</legend>
+            <input type="radio" name="subject" id="eng1" value="eng1">
+            <label for="eng1">English</label>
+            <input type="radio" name="subject" id="hin1" value="hin1">
+            <label for="hin1">hindi</label>
+            <input type="radio" name="subject" id="math1" value="math1">
+            <label for="math1">math</label>
+            <input type="radio" name="subject" id="science1" value="science1">
+            <label for="science1">science</label>
+            <input type="radio" name="subject" id="ss1" value="socialscience1">
+            <label for="ss1">social science</label>
+        </fieldset>
+
+        <div>
+        <label for="profession">select your blood group</label>
+        <select name="bloodgroup" id="profession">
+            <option value=""></option>
+            <option value="O">O</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="AB">AB</option>
+        </select>
+        </div>
+
+        <div>
+            <label for="blood">select your blood group antibodies</label>
+            <select name="bloodgroupantibodies" id="blood">
+                <option value=""></option>
+                <option value="positive">positive</option>
+                <option value="negative">negative</option>
+            </select>
+        </div>
+
+        <p>Audio settings:</p>
+
+        <div>
+            <input type="range" id="volume" name="volume" min="0" max="100" value="0">
+            <label for="volume">Volume</label>
+        </div>
+        
+        <div>
+            <input type="range" id="cowbell" name="cowbell" min="0" max="100" value="0" step="10">
+            <label for="cowbell">Cowbell</label>
+        </div>
+
+        <br>
+        <label for="feedback">please give your feedback:</label>
+        <textarea id="feedback" name="feedbackform" placeholder="write your feedback here"></textarea>
+        <button type="submit">submit</button>
+    </form>    
+
+</body>
+</html>

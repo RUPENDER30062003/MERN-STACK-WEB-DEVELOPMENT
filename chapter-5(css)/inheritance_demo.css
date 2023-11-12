@@ -1,0 +1,28 @@
+#myid p{
+    color: green;
+}
+
+div[id] p{
+    background-color:black;
+}
+
+div[id="myid"]{
+    font-weight: 900;
+}
+
+div{
+    background-color: blue;
+    color: aliceblue;
+}
+
+input{
+    background-color: inherit;
+}
+
+button{
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: red;
+}
